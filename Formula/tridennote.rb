@@ -1,26 +1,26 @@
 class Tridennote < Formula
   desc "Notes, next level, in your terminal"
   homepage "https://github.com/hrithiqball/tridennote-tui"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.1.0/tridennote_darwin_arm64.tar.gz"
-      sha256 "6a5071555b155d01c81f8cc2711fd565dc4d404c1048dafceed5dbd04b80202d"
+      url "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.1.1/tridennote_darwin_arm64.tar.gz"
+      sha256 "0167d36f7a20dfdfffe465cce46331fc1fca2a75ee027ab31d30142c9fe9b186"
     else
-      url "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.1.0/tridennote_darwin_amd64.tar.gz"
-      sha256 "e2dca9fdc90eb9a9510ce7903bc2647c854b2e2621f22c376c162cbed715f295"
+      url "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.1.1/tridennote_darwin_amd64.tar.gz"
+      sha256 "d5bfaf79d6812f4234399f53ffdb46157cd5a4b73bd37df68a6f95cf91edcc7e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.1.0/tridennote_linux_arm64.tar.gz"
-      sha256 "e093b03abcbddc48bdddaa4d4147cfeed89d93629c55d94e106300336485e2fb"
+      url "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.1.1/tridennote_linux_arm64.tar.gz"
+      sha256 "ffdd27458f1776d4d60556a197c0cf7db2250613728746a5006e8a5389497b8e"
     else
-      url "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.1.0/tridennote_linux_amd64.tar.gz"
-      sha256 "6d3a07f33c2818662fec306353371bdaf4b301cd3a97e41792255876fc6d94f8"
+      url "https://github.com/hrithiqball/tridennote-tui/releases/download/v1.1.1/tridennote_linux_amd64.tar.gz"
+      sha256 "993a14bc9eeaf89c55e7246ad6435b0a2e56b1bba957691fe2a806c412bdbc70"
     end
   end
 
